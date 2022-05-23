@@ -1,11 +1,20 @@
 /*---------------(POP-PUSH)---------------*/
-let bootdotdev = ["the", "best", "coding", "courses", "ever", "like", "totally"];
-bootdotdev.pop(); 
-bootdotdev.push("Mimo","definitely", "buy", "it");
-bootdotdev.join();
-console.log(bootdotdev);
-console.log("\"Mimo\" is the best!");
+let mimo = ["Hi", "The", "best", "coding", "courses", "ever", "is", "really"];
+mimo.pop(); 
+mimo.push("Mimo.", "It's", "worth", "a", "try.", "Buy", "it.");
+mimo.shift();
+mimo.unshift("Hi");
+mimo.join(" "); // "Hi,The,best,coding,courses,ever,is,Mimo.,It's,worth,a,try.,Buy,it."
 
-// (10) ['the', 'best', 'coding', 'courses', 'ever', 'like', 'Mimo', 'definitely', 'buy', 'it']
-// "Mimo" is the best!
+console.log(mimo.join());
+// Hi,The,best,coding,courses,ever,is,Mimo.,It's,worth,a,try.,Buy,it.
+console.log(mimo.join(" "));
+// Hi The best coding courses ever is Mimo. It's worth a try. Buy it.
+console.log(mimo.join("-"));
+// Hi-The-best-coding-courses-ever-is-Mimo.-It's-worth-a-try.-Buy-it.
+
+
+
+
+
 

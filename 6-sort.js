@@ -1,14 +1,12 @@
 /*---------------(SORT)---------------*/
 const names = ["Marco", "Genja", "Pierre", "Ana", "Isaac", "Zecker", "Bob"];
 names.sort();
-console.log(names);
 // (7) ['Ana', 'Bob', 'Genja', 'Isaac', 'Marco', 'Pierre', 'Zecker']
 // sorted alphabetically
 
 /*---------------(SORT)---------------*/
 const nombres = [562, 777, 0, 2008, 921, 6000, 400];
 nombres.sort();
-console.log(nombres);
 // (7) [0, 2008, 400, 562, 6000, 777, 921]
 
 /*---------------(SORT)---------------*/
