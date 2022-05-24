@@ -22,6 +22,7 @@ const newNames = names.slice(2,6)
 console.log(newNames); // (4) [2-3-4-5] ['Pierre', 'Ana', 'Isaac', 'Zecker']
 console.log(names); // (7) ['Marco', 'Genja', 'Pierre', 'Ana', 'Isaac', 'Zecker', 'Bob']
 
+
 /*---------------(.SPLICE())---------------*/ => IT RETURNS THE DELETED ELEMENTS as arrays
 // ['Pierre', 'Ana', 'Isaac', 'Zecker', 'Bob'] => 2-6 SPLICED OFF
 // [6] ["Bob"] is the end parameter, 算在內
