@@ -1,4 +1,4 @@
-// check output via F12
+// personal exercises, check output via F12
 // What are the JavaScript data types?
 Number
 String
